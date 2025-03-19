@@ -1,13 +1,20 @@
+const layout = ({
+  children,
+  posts,
+  profile,
+}: {
+  children: React.ReactNode;
+  posts: React.ReactNode;
+  profile: React.ReactNode;
 
-
-const layout = ({children , posts} : {children : React.ReactNode , posts : React.ReactNode}) => {
-    return (
-        <>
-            
-            {children}
-            {posts}
-        </>
-    );
+}) => {
+  return (
+    <>
+      {children}
+      {posts}
+      {profile}
+    </>
+  );
 };
 
 export default layout;

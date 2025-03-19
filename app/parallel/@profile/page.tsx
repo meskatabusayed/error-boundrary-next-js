@@ -7,10 +7,10 @@ const PostsPage = async() => {
 
     return (
         <>
-        <section className="bg-green-900 text-white py-16 px-4 md:px-8">
+        <section className="bg-orange-700 text-white py-16 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Welcome to Our Dynamic Section
+            Welcome to Our Profile Section
           </h2>
           <p className="text-lg text-gray-300 mb-6">
           Dynamic Content

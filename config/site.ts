@@ -25,6 +25,10 @@ export const siteConfig = {
       href: "/parallel",
     },
     {
+      label: "Test Route",
+      href: "/parallel/test",
+    },
+    {
       label: "With Suspense",
       href: "/suspense",
     },
